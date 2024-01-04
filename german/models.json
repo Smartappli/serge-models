@@ -1,0 +1,121 @@
+[
+    {   
+        "name": "Alfred",
+        "models": [
+            {
+                "name": "Alfred-40B",
+                "repo": "TheBloke/alfred-40B-1023-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "alfred-40b-1023.Q4_K_M.gguf",
+                        "disk_space": 25452369600.0
+                    }
+                ]
+            }           
+        ]
+    },
+    {
+        "name": "Falcon",
+        "models": [   
+            {
+                "name": "Falcon-7B",
+                "repo": "maddes8cht/tiiuae-falcon-7b-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-7b-Q4_K_M.gguf",
+                        "disk_space": 4975385792.0
+                    }
+                ]
+            },
+            {
+                "name": "Falcon-7B-Instruct",
+                "repo": "maddes8cht/tiiuae-falcon-7b-instruct-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-7b-instruct-Q4_K_M.gguf",
+                        "disk_space": 4975385792.0
+                    }
+                ]
+            },                       
+            {                
+                "name": "Falcon-40B",
+                "repo": "maddes8cht/tiiuae-falcon-40b-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-40b-Q4_K_M.gguf",
+                        "disk_space": 25452629728.0
+                    }
+                ]
+            },
+            {
+                "name": "Falcon-40B-Instruct",
+                "repo": "maddes8cht/tiiuae-falcon-40b-instruct-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-40b-instruct-Q4_K_M.gguf",
+                        "disk_space": 25452629728.0
+                    }
+                ]
+            }
+        ]
+    },   
+    {
+        "name": "Mistral",
+        "models": [
+            {
+                "name": "Mistral-7B",
+                "repo": "TheBloke/Mistral-7B-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mistral-7b-v0.1.Q4_K_M.gguf",
+                        "disk_space": 4368438912.0
+                    }
+                ]
+            },           
+            {
+                "name": "Mistral-7B-Instruct-v0_2",
+                "repo": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+                        "disk_space": 4368439584.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "Mixtral",
+        "models": [
+            {
+                "name": "Mixtral-8X7B-v0_1",
+                "repo": "TheBloke/Mixtral-8x7B-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral-8x7b-v0.1.Q4_K_M.gguf",
+                        "disk_space": 26441532864.0
+                    }
+                ]
+            },             
+            {
+                "name": "Mixtral-8X7B-Instruct-v0_1",
+                "repo": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf",
+                        "disk_space": 26441533376.0
+                    }
+                ]
+            }            
+        ]
+    }
+]
