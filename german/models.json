@@ -14,6 +14,44 @@
                 ]
             }           
         ]
+    },    
+    {   
+        "name": "Em_German",
+        "models": [
+            {
+                "name": "EM-German-7B-v01",
+                "repo": "TheBloke/em_german_7b_v01-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "em_german_7b_v01.Q4_K_M.gguf",
+                        "disk_space": 4081004256.0
+                    }
+                ]
+            },    
+            {
+                "name": "EM-German-13B-v01",
+                "repo": "TheBloke/em_german_13b_v01-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "em_german_13b_v01.Q4_K_M.gguf",
+                        "disk_space": 7865956288.0
+                    }
+                ]
+            },            
+            {
+                "name": "EM-German-70B-v01",
+                "repo": "TheBloke/em_german_70b_v01-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "em_german_70b_v01.Q4_K_M.gguf",
+                        "disk_space": 41422910400.0
+                    }
+                ]
+            }         
+        ]
     },
     {
         "name": "Falcon",
