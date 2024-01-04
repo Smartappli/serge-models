@@ -1,6 +1,6 @@
 # serge-models
 
-## 🧠 Supported Models in All
+## 🧠 Supported Models ( all Directory)
 
 | Category      | Models |
 |:-------------:|:-------|
