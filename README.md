@@ -3,7 +3,7 @@
 | Category      | Models |
 |:-------------:|:-------|
 | **ALL** | All models |
-|:-------------:|:-------|
+|         |            |
 
 ## 🧠 All Supported Models ( models.json in all Directory)
 
