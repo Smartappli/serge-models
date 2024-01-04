@@ -43,4 +43,13 @@
 | **Sqlcoder 2** | 15B |
 | **Vicuna** | 33B-Coder |
 
+## 🧠 Supported Models for Medical ( models.json in medical Directory)
 
+| Category      | Models |
+|:-------------:|:-------|
+| **Asclepius** | 13B |
+| **Med42** | 70B |
+| **Medalpaca** | 13B |
+| **Medicine-LLM** | 13B |
+| **Meditron** | 7B, 7B-Chat, 70B |
+| **PsyMedRP** | 13B-v1, 20B-v1 |
