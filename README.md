@@ -68,8 +68,8 @@
 |:-------------:|:-------|
 | **Alfred** | 40B-1023 |
 | **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
-| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
-| **Mixtral** | 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1 |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2 |
+| **Mixtral** | 8x7B-v0.1, 8x7B-Instruct-v0.1 |
 | **Vigogne 2** | 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat |
 
 ## 🧠 Generic Supported Models ( models.json in generic Directory)
@@ -103,8 +103,8 @@
 | **Alfred** | 40B-1023 |
 | **Em_German** | 7B, 13B, 70B |
 | **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
-| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
-| **Mixtral** | 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1 |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2 |
+| **Mixtral** | 8x7B-v0.1, 8x7B-Instruct-v0.1 |
 
 ## 🧠 Supported Models in Italian ( models.json in italian Directory)
 
@@ -112,8 +112,8 @@
 |:-------------:|:-------|
 | **Alfred** | 40B-1023 |
 | **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
-| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
-| **Mixtral** | 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1 |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2 |
+| **Mixtral** | 8x7B-v0.1, 8x7B-Instruct-v0.1 |
 
 ## 🧠 Supported Models for Medical ( models.json in medical Directory)
 
@@ -132,5 +132,5 @@
 |:-------------:|:-------|
 | **Alfred** | 40B-1023 |
 | **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
-| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2 |
 | **Mixtral** | 8x7B-v0.1, 8x7B-Instruct-v0.1, Spanish-FT |
