@@ -115,7 +115,18 @@
                         "disk_space": 26441533376.0
                     }
                 ]
-            }            
+            },
+            {
+                "name": "Mixtral-Spanish-FT",
+                "repo": "TheBloke/mixtral_spanish_ft-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral_spanish_ft.Q4_K_M.gguf",
+                        "disk_space": 2644246921.0
+                    }
+                ]
+            }
         ]
     }
 ]
