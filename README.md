@@ -1,4 +1,4 @@
-# serge-models
+# Models for Serge
 
 | Category      | Models |
 |:-------------:|:-------|
