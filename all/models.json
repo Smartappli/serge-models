@@ -1,0 +1,841 @@
+[
+    {   
+        "name": "Alfred",
+        "models": [
+            {
+                "name": "Alfred-40B",
+                "repo": "TheBloke/alfred-40B-1023-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "alfred-40b-1023.Q4_K_M.gguf",
+                        "disk_space": 25452369600.0
+                    }
+                ]
+            }           
+        ]
+    },
+    {   
+        "name": "Asclepius",
+        "models": [
+            {
+                "name": "Asclepius-13B",
+                "repo": "TheBloke/Asclepius-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "asclepius-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956256.0
+                    }
+                ]
+            }           
+        ]
+    },    
+    {
+        "name": "Code",
+        "models": [
+            {
+                "name": "Code-13B",
+                "repo": "TheBloke/Code-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "code-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956352.0
+                    }
+                ]
+            },            
+            {
+                "name": "Code-33B",
+                "repo": "TheBloke/Code-33B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "code-33b.Q4_K_M.gguf",
+                        "disk_space": 19621140000.0
+                    }
+                ]
+            }
+        ]
+    },     
+    {
+        "name": "CodeLLaMA",
+        "models": [
+            {
+                "name": "CodeLLaMA-7B",
+                "repo": "TheBloke/CodeLlama-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-7b.Q4_K_M.gguf",
+                        "disk_space": 4081095360.0
+                    }
+                ]
+            },
+            {
+                "name": "CodeLLaMA-7B-Instruct",
+                "repo": "TheBloke/CodeLlama-7B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-7b-instruct.Q4_K_M.gguf",
+                        "disk_space": 4081095360.0
+                    }
+                ]
+            },
+            {
+                "name": "CodeLLaMA-7B-Python",
+                "repo": "TheBloke/CodeLlama-7B-Python-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-7b-python.Q4_K_M.gguf",
+                        "disk_space": 4081004288.0
+                    }
+                ]
+            },
+            {
+                "name": "CodeLLaMA-13B",
+                "repo": "TheBloke/CodeLlama-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-13b.Q4_K_M.gguf",
+                        "disk_space": 7866070016.0
+                    }
+                ]
+            },             
+            {
+                "name": "CodeLLaMA-13B-Instruct",
+                "repo": "TheBloke/CodeLlama-13B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-13b-instruct.Q4_K_M.gguf",
+                        "disk_space": 7866070016.0
+                    }
+                ]
+            },
+            {
+                "name": "CodeLLaMA-13B-Python",
+                "repo": "TheBloke/CodeLlama-13B-Python-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-13b-python.Q4_K_M.gguf",
+                        "disk_space": 7865956288.0
+                    }
+                ]
+            },
+            {
+                "name": "CodeLLaMA-34B",
+                "repo": "TheBloke/CodeLlama-34B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-34b.Q4_K_M.gguf",
+                        "disk_space": 20219900064.0
+                    }
+                ]
+            },
+            {
+                "name": "CodeLLaMA-34B-Instruct",
+                "repo": "TheBloke/CodeLlama-34B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-34b-instruct.Q4_K_M.gguf",
+                        "disk_space": 20219900064.0
+                    }
+                ]
+            },            
+            {
+                "name": "CodeLLaMA-34B-Python",
+                "repo": "TheBloke/CodeLlama-34B-Python-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-34b-python.Q4_K_M.gguf",
+                        "disk_space": 20219900064.0
+                    }
+                ]
+            }             
+        ]
+    },    
+    {
+        "name": "Falcon",
+        "models": [   
+            {
+                "name": "Falcon-7B",
+                "repo": "maddes8cht/tiiuae-falcon-7b-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-7b-Q4_K_M.gguf",
+                        "disk_space": 4975385792.0
+                    }
+                ]
+            },
+            {
+                "name": "Falcon-7B-Instruct",
+                "repo": "maddes8cht/tiiuae-falcon-7b-instruct-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-7b-instruct-Q4_K_M.gguf",
+                        "disk_space": 4975385792.0
+                    }
+                ]
+            },                       
+            {                
+                "name": "Falcon-40B",
+                "repo": "maddes8cht/tiiuae-falcon-40b-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-40b-Q4_K_M.gguf",
+                        "disk_space": 25452629728.0
+                    }
+                ]
+            },
+            {
+                "name": "Falcon-40B-Instruct",
+                "repo": "maddes8cht/tiiuae-falcon-40b-instruct-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiiuae-falcon-40b-instruct-Q4_K_M.gguf",
+                        "disk_space": 25452629728.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LLaMA_2",
+        "models": [
+            {
+                "name": "LLaMA2-7B",
+                "repo": "TheBloke/Llama-2-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-7b.Q4_K_M.gguf",
+                        "disk_space": 4081004224.0
+                    }
+                ]
+            },            
+            {
+                "name": "LLaMA2-7B-Chat",
+                "repo": "TheBloke/Llama-2-7B-Chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-7b-chat.Q4_K_M.gguf",
+                        "disk_space": 4081004224.0
+                    }
+                ]
+            },
+            {
+                "name": "LLaMA2-7B-Coder",
+                "repo": "TheBloke/Llama-2-Coder-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-coder-7b.Q4_K_M.gguf",
+                        "disk_space": 4081004224.0
+                    }
+                ]
+            },            
+            {
+                "name": "LLaMA2-13B",
+                "repo": "TheBloke/Llama-2-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            },            
+            {
+                "name": "LLaMA2-13B-Chat",
+                "repo": "TheBloke/Llama-2-13B-chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-13b-chat.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            },
+            {
+                "name": "LLaMA2-70B",
+                "repo": "TheBloke/Llama-2-70B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-70b.Q4_K_M.gguf",
+                        "disk_space": 41422910368.0
+                    }
+                ]
+            },             
+            {
+                "name": "LLaMA2-70B-Chat",
+                "repo": "TheBloke/Llama-2-70B-Chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-70b-chat.Q4_K_M.gguf",
+                        "disk_space": 41422910368.0
+                    }
+                ]
+            },            
+            {
+                "name": "Llama2-70B-SFT-OASST",
+                "repo": "TheBloke/Llama-2-70B-OASST-1-200-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-70b-oasst-1-200.Q4_K_M.gguf",
+                        "disk_space": 41423092064.0
+                    }
+                ]
+            }
+        ]
+    },    
+    {   
+        "name": "Med42",
+        "models": [
+            {
+                "name": "Med42-70B",
+                "repo": "TheBloke/med42-70B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "med42-70b.Q4_K_M.gguf",
+                        "disk_space": 41422910368.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "Medalpaca",
+        "models": [
+            {
+                "name": "MedAlpaca-13B",
+                "repo": "TheBloke/medalpaca-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "medalpaca-13b.Q4_K_M.gguf",
+                        "disk_space": 7865963424.0
+                    }
+                ]
+            }           
+        ]
+    },
+    {   
+        "name": "medicine-LLM",
+        "models": [
+            {
+                "name": "Medicine LLM 13B",
+                "repo": "TheBloke/medicine-LLM-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "medicine-llm-13b.Q4_K_M.gguf",
+                        "disk_space": 7865963456.0
+                    }
+                ]
+            }           
+        ]
+    },    
+    {
+        "name": "Meditron",
+        "models": [
+            {
+                "name": "Meditron-7B",
+                "repo": "TheBloke/meditron-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "meditron-7b.Q4_K_M.gguf",
+                        "disk_space": 4081004352.0
+                    }
+                ]
+            },     
+            {
+                "name": "Meditron-7B-Chat",
+                "repo": "TheBloke/meditron-7B-chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "meditron-7b-chat.Q4_K_M.gguf",
+                        "disk_space": 4082074240.0
+                    }
+                ]
+            },              
+            {
+                "name": "Meditron-70B",
+                "repo": "TheBloke/meditron-70B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "meditron-70b.Q4_K_M.gguf",
+                        "disk_space": 41422910464.0
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "name": "Mistral",
+        "models": [
+            {
+                "name": "Mistral-7B",
+                "repo": "TheBloke/Mistral-7B-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mistral-7b-v0.1.Q4_K_M.gguf",
+                        "disk_space": 4368438912.0
+                    }
+                ]
+            },           
+            {
+                "name": "Mistral-7B-Instruct-v0_2",
+                "repo": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+                        "disk_space": 4368439584.0
+                    }
+                ]
+            },
+            {
+                "name": "Mistral-7B-OpenOrca",
+                "repo": "TheBloke/Mistral-7B-OpenOrca-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mistral-7b-openorca.Q4_K_M.gguf",
+                        "disk_space": 4368450304.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "MistralLite",
+        "models": [
+            {
+                "name": "MistralLite-7B",
+                "repo": "TheBloke/MistralLite-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mistrallite.Q4_K_M.gguf",
+                        "disk_space": 4368456032.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "Mixtral",
+        "models": [
+            {
+                "name": "Mixtral-8X7B-v0_1",
+                "repo": "TheBloke/Mixtral-8x7B-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral-8x7b-v0.1.Q4_K_M.gguf",
+                        "disk_space": 26441532864.0
+                    }
+                ]
+            },
+            {
+                "name": "Mixtral-8X7B-Dolphin-2_7",
+                "repo": "TheBloke/dolphin-2.7-mixtral-8x7b-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "dolphin-2.7-mixtral-8x7b.Q4_K_M.gguf",
+                        "disk_space": 26441544512.0
+                    }
+                ]
+            },             
+            {
+                "name": "Mixtral-8X7B-Instruct-v0_1",
+                "repo": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf",
+                        "disk_space": 26441533376.0
+                    }
+                ]
+            }            
+        ]
+    },    
+    {   
+        "name": "NeuralChat",
+        "models": [
+            {
+                "name": "Neural-Chat-7B-v3-3",
+                "repo": "TheBloke/neural-chat-7B-v3-3-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "neural-chat-7b-v3-3.Q4_K_M.gguf",
+                        "disk_space": 4368438976.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "Notus",
+        "models": [
+            {
+                "name": "Notus-7B-v1",
+                "repo": "TheBloke/notus-7B-v1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "notus-7b-v1.Q4_K_M.gguf",
+                        "disk_space": 4368439424.0
+                    }
+                ]
+            }           
+        ]
+    },   
+    {   
+        "name": "Notux-8X7B",
+        "models": [
+            {
+                "name": "Notux-8X7B-v1",
+                "repo": "TheBloke/notux-8x7b-v1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "notux-8x7b-v1.Q4_K_S.gguf",
+                        "disk_space": 26442469696.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "OpenChat",
+        "models": [
+            {
+                "name": "OpenChat-3_5-1210",
+                "repo": "TheBloke/openchat-3.5-1210-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "openchat-3.5-1210.Q4_K_M.gguf",
+                        "disk_space": 4368450656.0
+                    }
+                ]
+            }
+        ]
+    },            
+    {
+        "name": "OpenLLaMA",
+        "models": [
+            {
+                "name": "Open_LLaMA-3B-v2",
+                "repo": "maddes8cht/openlm-research-open_llama_3b_v2-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "openlm-research-open_llama_3b_v2-Q4_K_M.gguf",
+                        "disk_space": 2580116096.0
+                    }
+                ]
+            },
+            {
+                "name": "Open_LLaMA-7B-v2",
+                "repo": "maddes8cht/openlm-research-open_llama_7b_v2-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "openlm-research-open_llama_7b_v2-Q4_K_M.gguf",
+                        "disk_space": 4081016096.0
+                    }
+                ]
+            },
+            {
+                "name": "Open_LLaMA-13B-V2",
+                "repo": "maddes8cht/openlm-research-open_llama_13b-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "openlm-research-open_llama_13b-Q4_K_M.gguf",
+                        "disk_space": 7865990752.0
+                    }
+                ]
+            }            
+        ]
+    },   
+    {
+        "name": "Orca_2",
+        "models": [
+            {
+                "name": "Orca-2-7B",
+                "repo": "TheBloke/Orca-2-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "orca-2-7b.Q4_K_M.gguf",
+                        "disk_space": 4081021376.0
+                    }
+                ]
+            },            
+            {
+                "name": "Orca-2-13B",
+                "repo": "TheBloke/Orca-2-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "orca-2-13b.Q4_K_M.gguf",
+                        "disk_space": 7865977664.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "Phi",
+        "models": [
+            {
+                "name": "Phi-2",
+                "repo": "TheBloke/phi-2-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "phi-2.Q4_K_M.gguf",
+                        "disk_space": 1789239136.0
+                    }
+                ]
+            }           
+        ]
+    },    
+    {   
+        "name": "Python-Code",
+        "models": [
+            {
+                "name": "Python-Code-13B",
+                "repo": "TheBloke/Python-Code-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "python-code-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956352.0
+                    }
+                ]
+            },
+            {
+                "name": "Python-Code-33B",
+                "repo": "TheBloke/Python-Code-33B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "python-code-33b.Q4_K_M.gguf",
+                        "disk_space": 19621140000.0
+                    }
+                ]
+            } 
+        ]
+    },     
+    {   
+        "name": "PsyMedRP",
+        "models": [
+            {
+                "name": "PsyMedRP-v1-13B",
+                "repo": "TheBloke/PsyMedRP-v1-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "psymedrp-v1-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956288.0
+                    }
+                ]
+            },
+            {
+                "name": "PsyMedRP-v1-20B",
+                "repo": "TheBloke/PsyMedRP-v1-20B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "psymedrp-v1-20b.Q4_K_M.gguf",
+                        "disk_space": 12042208736.0
+                    }
+                ]
+            }            
+        ]
+    },
+    {   
+        "name": "SlimOrca",
+        "models": [
+            {
+                "name": "SlimOrca-13B",
+                "repo": "TheBloke/SlimOrca-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "slimorca-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956352.0
+                    }
+                ]
+            }           
+        ]
+    },     
+    {   
+        "name": "StarlingLM",
+        "models": [
+            {
+                "name": "Starling-LM-7B-Alpha",
+                "repo": "TheBloke/Starling-LM-7B-alpha-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "starling-lm-7b-alpha.Q4_K_M.gguf",
+                        "disk_space": 4368450368.0
+                    }
+                ]
+            }
+        ]
+    },    
+    {
+        "name": "Vicuna",
+        "models": [
+            {
+                "name": "Vicuna-7B",
+                "repo": "TheBloke/vicuna-7B-v1.5-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "vicuna-7b-v1.5.Q4_K_M.gguf",
+                        "disk_space": 4081004224.0
+                    }
+                ]
+            },
+            {
+                "name": "Vicuna-13B",
+                "repo": "TheBloke/vicuna-13B-v1.5-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "vicuna-13b-v1.5.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            },
+            {
+                "name": "Vicuna-33B",
+                "repo": "TheBloke/vicuna-33B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "vicuna-33b.Q4_K_M.gguf",
+                        "disk_space": 19621139872.0
+                    }
+                ]
+            },
+            {
+                "name": "Vicuna-33B-Coder",
+                "repo": "TheBloke/vicuna-33B-coder-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "vicuna-33b-coder.Q4_K_M.gguf",
+                        "disk_space": 19621139872.0
+                    }
+                ]
+            }             
+        ]
+    },
+    {   
+        "name": "WizardLM",
+        "models": [
+            {
+                "name": "WizardLM-7B-v1_0",
+                "repo": "TheBloke/wizardLM-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardLM-7B.Q4_K_M.gguf",
+                        "disk_space": 4081009920.0
+                    }
+                ]
+            },          
+            {
+                "name": "WizardLM-13B-v1_2",
+                "repo": "TheBloke/WizardLM-13B-V1.2-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardlm-13b-v1.2.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            },
+            {
+                "name": "WizardLM-70B-v1_0",
+                "repo": "TheBloke/WizardLM-70B-V1.0-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardlm-70b-v1.0.Q4_K_M.gguf",
+                        "disk_space": 41422921728.0
+                    }
+                ]
+            }            
+        ]
+    },    
+    {
+        "name": "Zephyr",
+        "models": [
+            {
+                "name": "Zephyr-3B",
+                "repo": "TheBloke/stablelm-zephyr-3b-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "stablelm-zephyr-3b.Q4_K_M.gguf",
+                        "disk_space": 1708595648.0
+                    }
+                ]
+            },
+            {
+                "name": "Zephyr-7B-Alpha",
+                "repo": "TheBloke/zephyr-7B-alpha-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "zephyr-7b-alpha.Q4_K_M.gguf",
+                        "disk_space": 4368438976.0
+                    }
+                ]
+            },
+            {
+                "name": "Zephyr-7B-Beta",
+                "repo": "TheBloke/zephyr-7B-beta-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "zephyr-7b-beta.Q4_K_M.gguf",
+                        "disk_space": 4368438976.0
+                    }
+                ]
+            }
+        ]
+    }     
+]
