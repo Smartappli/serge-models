@@ -4,6 +4,11 @@
 |:-------------:|:-------|
 | **ALL** | All models |
 |         |            |
+| **Tiny** | Models <= 7B params |
+| **small** | Models with 7B and <= 13B params |
+| **Medium** | Models with > 13B abd <=40B params |
+| **Large** | Models with >40B and <=80B params |
+|         |            |    
 
 ## 🧠 All Supported Models ( models.json in all Directory)
 
