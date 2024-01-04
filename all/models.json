@@ -30,6 +30,22 @@
                 ]
             }           
         ]
+    },  
+    {   
+        "name": "Asclepius",
+        "models": [
+            {
+                "name": "Asclepius-13B",
+                "repo": "TheBloke/Asclepius-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "asclepius-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956256.0
+                    }
+                ]
+            }           
+        ]
     },    
     {
         "name": "Code",
