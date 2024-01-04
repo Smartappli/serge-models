@@ -1,6 +1,6 @@
 # serge-models
 
-## 🧠 Supported Models ( all Directory)
+## 🧠 All Supported Models ( models.json in all Directory)
 
 | Category      | Models |
 |:-------------:|:-------|
@@ -33,7 +33,7 @@
 | **WizardLM** | 7B-v1.0, 13B-v1.2, 70B-v1.0 |
 | **Zephyr** | 3B, 7B-Alpha, 7B-Beta |
 
-## 🧠 Supported Models ( coder Directory)
+## 🧠 Supported Models for coders ( models.json in coder Directory)
 
 | Category      | Models |
 |:-------------:|:-------|
