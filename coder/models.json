@@ -106,7 +106,23 @@
                 ]
             } 
         ]
-    },         
+    },
+    {
+        "name": "Sqlcoder",
+        "models": [
+            {
+                "name": "Sqlcoder2r",
+                "repo": "TheBloke/sqlcoder2-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "sqlcoder2.Q4_K_M.gguf",
+                        "disk_space": 9962784224.0
+                    }
+                ]
+            }             
+        ]
+    },
     {
         "name": "Vicuna",
         "models": [
