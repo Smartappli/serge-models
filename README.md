@@ -44,7 +44,7 @@
 | **Sqlcoder 2** | 15B |
 | **Vicuna** | 33B-Coder |
 
-## 🧠 Supported Models for french ( models.json in french Directory)
+## 🧠 Supported Models in French ( models.json in french Directory)
 
 | Category      | Models |
 |:-------------:|:-------|
@@ -78,6 +78,24 @@
 | **WizardLM** | 7B-v1.0, 13B-v1.2, 70B-v1.0 |
 | **Zephyr** | 3B, 7B-Alpha, 7B-Beta |
 
+## 🧠 Supported Models in German ( models.json in french Directory)
+
+| Category      | Models |
+|:-------------:|:-------|
+| **Alfred** | 40B-1023 |
+| **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
+| **Mixtral** | 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1 |
+
+## 🧠 Supported Models in Italian ( models.json in italian Directory)
+
+| Category      | Models |
+|:-------------:|:-------|
+| **Alfred** | 40B-1023 |
+| **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
+| **Mixtral** | 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1 |
+
 ## 🧠 Supported Models for Medical ( models.json in medical Directory)
 
 | Category      | Models |
@@ -88,3 +106,12 @@
 | **Medicine-LLM** | 13B |
 | **Meditron** | 7B, 7B-Chat, 70B |
 | **PsyMedRP** | 13B-v1, 20B-v1 |
+
+## 🧠 Supported Models in Spanish ( models.json in spanish Directory)
+
+| Category      | Models |
+|:-------------:|:-------|
+| **Alfred** | 40B-1023 |
+| **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
+| **Mixtral** | 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1 |
