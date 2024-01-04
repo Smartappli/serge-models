@@ -1,0 +1,131 @@
+[
+    {   
+        "name": "Asclepius",
+        "models": [
+            {
+                "name": "Asclepius-13B",
+                "repo": "TheBloke/Asclepius-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "asclepius-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956256.0
+                    }
+                ]
+            }           
+        ]
+    },      
+    {   
+        "name": "Med42",
+        "models": [
+            {
+                "name": "Med42-70B",
+                "repo": "TheBloke/med42-70B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "med42-70b.Q4_K_M.gguf",
+                        "disk_space": 41422910368.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "Medalpaca",
+        "models": [
+            {
+                "name": "MedAlpaca-13B",
+                "repo": "TheBloke/medalpaca-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "medalpaca-13b.Q4_K_M.gguf",
+                        "disk_space": 7865963424.0
+                    }
+                ]
+            }           
+        ]
+    },
+    {   
+        "name": "medicine-LLM",
+        "models": [
+            {
+                "name": "Medicine LLM 13B",
+                "repo": "TheBloke/medicine-LLM-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "medicine-llm-13b.Q4_K_M.gguf",
+                        "disk_space": 7865963456.0
+                    }
+                ]
+            }           
+        ]
+    },    
+    {
+        "name": "Meditron",
+        "models": [
+            {
+                "name": "Meditron-7B",
+                "repo": "TheBloke/meditron-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "meditron-7b.Q4_K_M.gguf",
+                        "disk_space": 4081004352.0
+                    }
+                ]
+            },     
+            {
+                "name": "Meditron-7B-Chat",
+                "repo": "TheBloke/meditron-7B-chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "meditron-7b-chat.Q4_K_M.gguf",
+                        "disk_space": 4082074240.0
+                    }
+                ]
+            },              
+            {
+                "name": "Meditron-70B",
+                "repo": "TheBloke/meditron-70B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "meditron-70b.Q4_K_M.gguf",
+                        "disk_space": 41422910464.0
+                    }
+                ]
+            }
+        ]
+    }, 
+    {   
+        "name": "PsyMedRP",
+        "models": [
+            {
+                "name": "PsyMedRP-v1-13B",
+                "repo": "TheBloke/PsyMedRP-v1-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "psymedrp-v1-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956288.0
+                    }
+                ]
+            },
+            {
+                "name": "PsyMedRP-v1-20B",
+                "repo": "TheBloke/PsyMedRP-v1-20B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "psymedrp-v1-20b.Q4_K_M.gguf",
+                        "disk_space": 12042208736.0
+                    }
+                ]
+            }            
+        ]
+    }
+]
