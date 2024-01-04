@@ -26,8 +26,8 @@
 | **Phi 2** | 2.7B |
 | **Python Code** | 13B, 33B |
 | **PsyMedRP** | 13B-v1, 20B-v1 |
-| **Starling LM** | 7B-Alpha |
 | **Sqlcoder 2** | 15B |
+| **Starling LM** | 7B-Alpha |
 | **Vicuna** | 7B-v1.5, 13B-v1.5, 33B-v1.3, 33B-Coder |
 | **Vigogne 2** | 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat |
 | **WizardLM** | 7B-v1.0, 13B-v1.2, 70B-v1.0 |
