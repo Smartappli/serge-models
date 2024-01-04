@@ -5,10 +5,18 @@
 | **ALL** | All models |
 |         |            |
 | **Tiny** | Models <= 7B params |
-| **small** | Models with 7B and <= 13B params |
+| **Small** | Models with 7B and <= 13B params |
 | **Medium** | Models with > 13B abd <=40B params |
 | **Large** | Models with >40B and <=80B params |
 |         |            |    
+| **Coder** | Models for coders |
+| **Medical** | Models for medical domain |
+|         |            |    
+| **Frebcg** | Models trained for french language |
+| **Generic** | Models trained for english language |
+| **German** | Models trained for german language |
+| **Italian** | Models trained for italian language |
+| **Spanish** | Models trained for Spanish language |
 
 ## 🧠 All Supported Models ( models.json in all Directory)
 
