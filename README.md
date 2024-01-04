@@ -34,7 +34,7 @@
 | **WizardLM** | 7B-v1.0, 13B-v1.2, 70B-v1.0 |
 | **Zephyr** | 3B, 7B-Alpha, 7B-Beta |
 
-## 🧠 Supported Models for coders ( models.json in coder Directory)
+## 🧠 Supported Models for Coders ( models.json in coder Directory)
 
 | Category      | Models |
 |:-------------:|:-------|
@@ -43,6 +43,16 @@
 | **LLaMA 2**  | 7B-Coder |
 | **Sqlcoder 2** | 15B |
 | **Vicuna** | 33B-Coder |
+
+## 🧠 Supported Models for french ( models.json in french Directory)
+
+| Category      | Models |
+|:-------------:|:-------|
+| **Alfred** | 40B-1023 |
+| **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
+| **Mistral** | 7B-V0.1, 7B-Instruct-v0.2, 7B-OpenOrca |
+| **Mixtral** | 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1 |
+| **Vigogne 2** | 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat |
 
 ## 🧠 Generic Supported Models ( models.json in generic Directory)
 
