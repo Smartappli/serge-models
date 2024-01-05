@@ -9,24 +9,15 @@
 | **Medium** | Models with > 13B abd <=40B params |
 | **Large** | Models with >40B and <=80B params |
 |         |            |    
-| **Coder** | Models for coders | Code 13B, 33B; CodeLLaMA 7B-Python, 13B-Python, 34B-Python; LLaMA 2 7B-Coder; Sqlcoder 2 15B; Vicuna 33B-Coder |
+| **Coder** | **Models for coders** | Code 13B, 33B; CodeLLaMA 7B-Python, 13B-Python, 34B-Python; LLaMA 2 7B-Coder; Sqlcoder 2 15B; Vicuna 33B-Coder |
 | **Medical** | Models for medical domain |
 |         |            |    
-| **Frebcg** | Models trained for french language |
+| **Frebch** | Models trained for french language | Alfred 40B-1023; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Mistral 7B-V0.1, 7B-Instruct-v0.2; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Vigogne 2 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat |
 | **Generic** | Models trained for english language |
 | **German** | Models trained for german language |
 | **Italian** | Models trained for italian language |
 | **Spanish** | Models trained for Spanish language |
 
-## 🧠 Supported Models for Coders ( models.json in coder Directory)
-
-| Category      | Models |
-|:-------------:|:-------|
-| **Code** | 13B, 33B |
-| **CodeLLaMA** | 7B-Python, 13B-Python, 34B-Python |
-| **LLaMA 2**  | 7B-Coder |
-| **Sqlcoder 2** | 15B |
-| **Vicuna** | 33B-Coder |
 
 ## 🧠 Supported Models in French ( models.json in french Directory)
 
