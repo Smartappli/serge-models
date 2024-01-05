@@ -17,7 +17,7 @@
 | **Tiny** | Models <= 7B params | CodeLLaMA 7B, 7B-Instruct; Falcon 7B, 7B-Instruct; LLaMA 2 7B, 7B-Chat; Meditron 7B, 7B-Chat; Mistral 7B-V0.1, 7B-Instruct-v0.2; MistralLite 7B; Neural-Chat 7B-v3.3; Notus 7B-v1 OpenChat 7B-v3.5-1210; OpenLLaMA 3B-v2, 7B-v2; Orca 2 7B; Phi 2 2.7B; Starling LM 7B-Alpha; Vicuna 7B-v1.5; Vigogne 2 7B-Chat, 7B-Instruct; WizardLM 7B-v1.0; Zephyr 3B, 7B-Alpha, 7B-Beta |
 | **Small** | Models with 7B and <= 13B params | CodeLLaMA 13B, 13B-Instruct; LLaMA 2 13B, 13B-Chat; OpenLLaMA 13B-v2; Orca 2 13B; SlimOrca 13B; Vicuna 13B-v1.5; Vigogne 2 13B-Instruct; WizardLM 13B-v1.2 |
 | **Medium** | Models with > 13B abd <=40B params | Alfred 40B-1023; CodeLLaMA 34B, 34B-Instruct; Falcon 40B, 40B-Instruct |
-| **Large** | Models with >40B and <=80B params | Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Notux 8x7b-v1 |  
+| **Large** | Models with >40B and <=80B params | Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Notux 8x7b-v1, WizardLM 70B-v1.0 |  
 | **XLarge** | Models with more than 80B params | LLaMA 2 70B, 70B-Chat |  
 |              |                                  |           |  
 | **Coder** | Models for coders | Code 13B, 33B; CodeLLaMA 7B-Python, 13B-Python, 34B-Python; LLaMA 2 7B-Coder; Sqlcoder 2 15B; Vicuna 33B-Coder |
