@@ -1,6 +1,6 @@
 # Models for 🦙 Serge 🦙
 
-[Serge]([https://duckduckgo.com](https://github.com/serge-chat/serge) is a chat interface crafted with [llama.cpp](https://github.com/ggerganov/llama.cpp) for running GGUF models. No API keys, entirely self-hosted!
+[Serge](https://github.com/serge-chat/serge) is a chat interface crafted with [llama.cpp](https://github.com/ggerganov/llama.cpp) for running GGUF models. No API keys, entirely self-hosted!
 
 - 🌐 **SvelteKit** frontend
 - 💾 **[Redis](https://github.com/redis/redis)** for storing chat history & parameters
