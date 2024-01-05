@@ -1,0 +1,133 @@
+[    
+    {
+        "name": "CodeLLaMA",
+        "models": [
+            {
+                "name": "CodeLLaMA-13B",
+                "repo": "TheBloke/CodeLlama-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-13b.Q4_K_M.gguf",
+                        "disk_space": 7866070016.0
+                    }
+                ]
+            },             
+            {
+                "name": "CodeLLaMA-13B-Instruct",
+                "repo": "TheBloke/CodeLlama-13B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-13b-instruct.Q4_K_M.gguf",
+                        "disk_space": 7866070016.0
+                    }
+                ]
+            }             
+        ]
+    },    
+            {
+                "name": "LLaMA2-13B",
+                "repo": "TheBloke/Llama-2-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            },            
+            {
+                "name": "LLaMA2-13B-Chat",
+                "repo": "TheBloke/Llama-2-13B-chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-13b-chat.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            }
+        ]
+    },             
+    {
+        "name": "Orca_2",
+        "models": [        
+            {
+                "name": "Orca-2-13B",
+                "repo": "TheBloke/Orca-2-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "orca-2-13b.Q4_K_M.gguf",
+                        "disk_space": 7865977664.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "SlimOrca",
+        "models": [
+            {
+                "name": "SlimOrca-13B",
+                "repo": "TheBloke/SlimOrca-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "slimorca-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956352.0
+                    }
+                ]
+            }           
+        ]
+    },     
+    {
+        "name": "Vicuna",
+        "models": [
+            {
+                "name": "Vicuna-13B",
+                "repo": "TheBloke/vicuna-13B-v1.5-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "vicuna-13b-v1.5.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            }        
+        ]
+    },
+    {   
+        "name": "Vigogne-2",
+        "models": [
+            {
+                "name": "Vigogne-2-13B-Instruct",
+                "repo": "TheBloke/Vigogne-2-13B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "vigogne-2-13b-instruct.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            }          
+        ]
+    },    
+    {   
+        "name": "WizardLM",
+        "models": [  
+            {
+                "name": "WizardLM-13B-v1_2",
+                "repo": "TheBloke/WizardLM-13B-V1.2-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardlm-13b-v1.2.Q4_K_M.gguf",
+                        "disk_space": 7865956224.0
+                    }
+                ]
+            }
+        ]
+    }     
+]
