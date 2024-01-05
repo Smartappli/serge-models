@@ -1,0 +1,88 @@
+[
+    {
+        "name": "LLaMA_2",
+        "models": [
+            {
+                "name": "LLaMA2-70B",
+                "repo": "TheBloke/Llama-2-70B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-70b.Q4_K_M.gguf",
+                        "disk_space": 41422910368.0
+                    }
+                ]
+            },             
+            {
+                "name": "LLaMA2-70B-Chat",
+                "repo": "TheBloke/Llama-2-70B-Chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "llama-2-70b-chat.Q4_K_M.gguf",
+                        "disk_space": 41422910368.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "Mixtral",
+        "models": [
+            {
+                "name": "Mixtral-8X7B-v0_1",
+                "repo": "TheBloke/Mixtral-8x7B-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral-8x7b-v0.1.Q4_K_M.gguf",
+                        "disk_space": 26441532864.0
+                    }
+                ]
+            },             
+            {
+                "name": "Mixtral-8X7B-Instruct-v0_1",
+                "repo": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral-8x7b-instruct-v0.1.Q4_K_M.gguf",
+                        "disk_space": 26441533376.0
+                    }
+                ]
+            }            
+        ]
+    },    
+    {   
+        "name": "Notux-8X7B",
+        "models": [
+            {
+                "name": "Notux-8X7B-v1",
+                "repo": "TheBloke/notux-8x7b-v1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "notux-8x7b-v1.Q4_K_S.gguf",
+                        "disk_space": 26442469696.0
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "name": "WizardLM",
+        "models": [
+            {
+                "name": "WizardLM-70B-v1_0",
+                "repo": "TheBloke/WizardLM-70B-V1.0-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardlm-70b-v1.0.Q4_K_M.gguf",
+                        "disk_space": 41422921728.0
+                    }
+                ]
+            }            
+        ]
+    }
+]
