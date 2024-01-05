@@ -2,7 +2,8 @@
 
 | Directory    | Description    | Models    |
 |:------------:|:--------------:|:---------:|
-| **aLL** | All models | Alfred 40B-1023; Asclepius 13B;  Code: 13B, 33B; CodeLLaMA: 7B, 7B-Instruct, 7B-Python, 13B, 13B-Instruct, 13B-Python, 34B, 34B-Instruct, 34B-Python |
+| **aLL** | All models | - Alfred 40B-1023
+                         - Asclepius 13B;  Code: 13B, 33B; CodeLLaMA: 7B, 7B-Instruct, 7B-Python, 13B, 13B-Instruct, 13B-Python, 34B, 34B-Instruct, 34B-Python |
 | **Falcon** | 7B, 7B-Instruct, 40B, 40B-Instruct |
 | **LLaMA 2**  | 7B, 7B-Chat, 7B-Coder, 13B, 13B-Chat, 70B, 70B-Chat, 70B-OASST |
 | **Med42** | 70B |
