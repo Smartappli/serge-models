@@ -6,7 +6,7 @@
 - 💾 **[Redis](https://github.com/redis/redis)** for storing chat history & parameters
 - ⚙️ **FastAPI + LangChain** for the API, wrapping calls to [llama.cpp](https://github.com/ggerganov/llama.cpp) using the [python bindings](https://github.com/abetlen/llama-cpp-python)
 
-## How to replace serge's models.json file with a thematic models.json file
+## ⚡️ How to replace serge's models.json file with a thematic models.json file
 
 ## 🧠 Supported Models
 
