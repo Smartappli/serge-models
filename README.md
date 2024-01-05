@@ -8,6 +8,9 @@
 
 ## ⚡️ How to replace serge's models.json file with a thematic models.json file
 
+Select and retrieve a models.json file.
+Then replace the models.json file located in /usr/src/app/api/src/serge/data/ in the docker container.
+
 ## 🧠 Supported Models
 
 | Directory    | Description    | Models    |
