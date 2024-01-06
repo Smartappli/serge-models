@@ -127,5 +127,21 @@
                 ]
             }            
         ]
-    }
+    },
+    {   
+        "name": "Tinyllama",
+        "models": [
+             {
+                "name": "Tinyllama-1.1B-Chat-Medical",
+                "repo": "afrideva/tiny-llama-1.1b-chat-medical-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "tiny-llama-1.1b-chat-medical.q4_k_m.gguf",
+                        "disk_space": 668788064.0
+                    }
+                ]
+            }           
+        ]
+    }    
 ]
