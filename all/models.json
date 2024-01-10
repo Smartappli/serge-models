@@ -896,7 +896,7 @@
         "name": "Wizard",
         "models": [
             {
-                "name": "Wizardcoder-33B-v1.1",
+                "name": "WizarCoder-33B-v1.1",
                 "repo": "TheBloke/WizardCoder-33B-V1.1-GGUF",
                 "files": [
                     {
@@ -905,7 +905,7 @@
                         "disk_space": 19940659360.0
                     }
                 ]
-            },             
+            },            
             {
                 "name": "WizardLM-7B-v1_0",
                 "repo": "TheBloke/wizardLM-7B-GGUF",
@@ -936,6 +936,39 @@
                         "name": "q4_K_M",
                         "filename": "wizardlm-70b-v1.0.Q4_K_M.gguf",
                         "disk_space": 41422921728.0
+                    }
+                ]
+            },
+            {
+                "name": "WizardMath-7B-v1.1",
+                "repo": "TheBloke/WizardMath-7B-V1.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardmath-7b-v1.1.Q4_K_M.gguf",
+                        "disk_space": 4369375296.0
+                    }
+                ]
+            }, 
+            {
+                "name": "WizardMath-13B-v1.0",
+                "repo": "TheBloke/WizardMath-13B-V1.0-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardmath-13b-v1.0.Q4_K_M.gguf",
+                        "disk_space": 7865963360.0
+                    }
+                ]
+            },
+            {
+                "name": "WizardMath-70B-v1.0",
+                "repo": "TheBloke/WizardMath-70B-V1.0-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardmath-70b-v1.0.Q4_K_M.gguf",
+                        "disk_space": 41422933088.0
                     }
                 ]
             }            
