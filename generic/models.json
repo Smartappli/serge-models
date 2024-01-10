@@ -290,7 +290,18 @@
                         "disk_space": 26441533376.0
                     }
                 ]
-            }            
+            },
+            {
+                "name": "Mixtral-SlimOrca-8X7B",
+                "repo": "TheBloke/Mixtral-SlimOrca-8x7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "mixtral-slimorca-8x7b.Q4_K_M.gguf",
+                        "disk_space": 26441544192.0
+                    }
+                ]
+            }             
         ]
     },    
     {   
