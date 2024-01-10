@@ -138,5 +138,21 @@
                 ]
             }             
         ]
-    }    
+    },
+    {
+        "name": "Wizard",
+        "models": [
+            {
+                "name": "Wizardcoder-33B-v1.1",
+                "repo": "TheBloke/WizardCoder-33B-V1.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "wizardcoder-33b-v1.1.Q4_K_M.gguf",
+                        "disk_space": 19940659360.0
+                    }
+                ]
+            } 
+        ]
+    }
 ]
