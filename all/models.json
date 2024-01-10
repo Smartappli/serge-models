@@ -893,7 +893,7 @@
         ]
     },    
     {   
-        "name": "WizardLM",
+        "name": "Wizard",
         "models": [
             {
                 "name": "Wizardcoder-33B-v1.1",
