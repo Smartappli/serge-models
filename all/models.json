@@ -508,7 +508,7 @@
                 ]
             },
             {
-                "name": "Mixtral-SlimOrca-8X7B",
+                "name": "Mixtral-SlimOrca-8x7B",
                 "repo": "TheBloke/Mixtral-SlimOrca-8x7B-GGUF",
                 "files": [
                     {
