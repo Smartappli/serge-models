@@ -353,7 +353,7 @@
         ]
     },
     {   
-        "name": "medicine",
+        "name": "Medicine",
         "models": [
             {
                 "name": "Medicine-Chat",
