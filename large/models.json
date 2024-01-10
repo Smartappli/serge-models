@@ -70,7 +70,7 @@
         ]
     },
     {   
-        "name": "WizardLM",
+        "name": "Wizard",
         "models": [
             {
                 "name": "WizardLM-70B-v1_0",
