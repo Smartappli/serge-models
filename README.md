@@ -25,6 +25,7 @@ Then replace the models.json file located in /usr/src/app/api/src/serge/data/ of
 | **Large** | Models with >40B and <=80B params | LLaMA 2 70B, 70B-Chat; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Notux 8x7b-v1, Wizard LM-70B-v1.0 |  
 |              |                                  |           |  
 | **Coder** | Models trained for coding | Code 13B, 33B; CodeLLaMA 7B-Python, 13B-Python, 34B-Python; LLaMA 2 7B-Coder; Sqlcoder 2 15B; Vicuna 33B-Coder; Wizard Coder-33B-v1.1 |
+| **Finance** | Models trained for finance domain | Finance LLM, Chat |
 | **Math** | Models trained for math domain | Wizard Math-7B-v1.0, 13B-v1.0, 70B-v1.0 |
 | **Medical** | Models trained for medical domain | Asclepius 13B; Med42 70B; Medalpaca 13B; Medicine Chat, LLM 13B; Meditron 7B, 7B-Chat, 70B; PsyMedRP 13B-v1, 20B-v1; TinyLlama 1.1B Chat Medical |
 |              |                                  |           |
