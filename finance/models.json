@@ -1,0 +1,29 @@
+[
+    {   
+        "name": "Finance",
+        "models": [
+            {
+                "name": "Finance-LLM",
+                "repo": "TheBloke/finance-LLM-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "finance-llm.Q4_K_M.gguf",
+                        "disk_space": 4081009920.0
+                    }
+                ]
+            },
+            {
+                "name": "Finance-Chat",
+                "repo": "TheBloke/finance-chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "finance-chat.Q4_K_M.gguff",
+                        "disk_space": 4081010048.0
+                    }
+                ]
+            }          
+        ]
+    }
+]
