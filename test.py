@@ -28,7 +28,7 @@ def check_model_availability(repo, filename):
         return False
 
 
-model_data = os.path.join(os.getcwd(), 'all/models.json')
+model_data = os.path.join(os.getcwd(), 'tiny/models.json')
 print(model_data)
 checks = list(flatten_model_data(model_data))
 
