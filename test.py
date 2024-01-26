@@ -39,9 +39,9 @@ model_data5 = load_model_data(test_dir.parent / "serge-models/generic/models.jso
 checks5 = list(flatten_model_data(model_data5))
 model_data6 = load_model_data(test_dir.parent / "serge-models/german/models.json")
 checks6 = list(flatten_model_data(model_data6))
-model_data7 = load_model_data(test_dir.parent / "serge-models/german/models.json")
+model_data7 = load_model_data(test_dir.parent / "serge-models/italian/models.json")
 checks7 = list(flatten_model_data(model_data7))
-model_data8 = load_model_data(test_dir.parent / "serge-models/german/models.json")
+model_data8 = load_model_data(test_dir.parent / "serge-models/large/models.json")
 checks8 = list(flatten_model_data(model_data8))
 
 @pytest.mark.parametrize("repo,filename", checks1)
