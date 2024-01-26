@@ -43,6 +43,12 @@ model_data7 = load_model_data(test_dir.parent / "serge-models/italian/models.jso
 checks7 = list(flatten_model_data(model_data7))
 model_data8 = load_model_data(test_dir.parent / "serge-models/large/models.json")
 checks8 = list(flatten_model_data(model_data8))
+model_data9 = load_model_data(test_dir.parent / "serge-models/math/models.json")
+checks9 = list(flatten_model_data(model_data9))
+model_data10 = load_model_data(test_dir.parent / "serge-models/medical/models.json")
+checks10 = list(flatten_model_data(model_data10))
+model_data11 = load_model_data(test_dir.parent / "serge-models/medium/models.json")
+checks11 = list(flatten_model_data(model_data11))
 
 @pytest.mark.parametrize("repo,filename", checks1)
 def test_model_available1(repo, filename):
@@ -75,4 +81,17 @@ def test_model_available7(repo, filename):
 @pytest.mark.parametrize("repo,filename", checks8)
 def test_model_available8(repo, filename):
     assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+
+@pytest.mark.parametrize("repo,filename", checks9)
+def test_model_available9(repo, filename):
+    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+
+@pytest.mark.parametrize("repo,filename", checks10)
+def test_model_available10(repo, filename):
+    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+
+@pytest.mark.parametrize("repo,filename", checks11)
+def test_model_available11(repo, filename):
+    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+
     
