@@ -27,7 +27,7 @@ def check_model_availability(repo, filename):
 
 
 test_dir = Path(__file__).parent
-model_data = load_model_data(test_dir.parent / "all/models.json")
+model_data = load_model_data(test_dir.parent / "serge-models/all/models.json")
 checks = list(flatten_model_data(model_data))
 
 @pytest.mark.parametrize("repo,filename", checks)
