@@ -1,38 +1,38 @@
-import os
-import json
-from pathlib import Path
-import requests
-from huggingface_hub import hf_hub_url
-import pytest
+name: LLM Healthcheck
 
-paths=['all/models.json']
+on:
+  push:
+    branches:
+      - "main"
+    paths-ignore:
+      - "**.md"
+  pull_request:
+    branches:
+      - "*"
+    paths-ignore:
+      - "**.md"
+  workflow_dispatch:
+  release:
+    types: [published, edited]
+  schedule:
+    - cron: '0 0 * * *'
 
-def load_model_data(file_path):
-    with open(file_path, "r") as models_file:
-        return json.load(models_file)
-
-
-def flatten_model_data(families):
-    for family in families:
-        for model in family["models"]:
-            for file in model["files"]:
-                yield model["repo"], file["filename"]
-
-
-def check_model_availability(repo, filename):
-    url = hf_hub_url(repo, filename, repo_type="model", revision="main")
-    response = requests.head(url)
-    if response.ok:
-        return True
-    else:
-        return False
-
-
-model_data = os.path.join(os.getcwd(), 'tiny/models.json')
-print(model_data)
-checks = list(flatten_model_data(model_data))
-
-
-@pytest.mark.parametrize("repo,filename", checks)
-def test_model_available(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+jobs:
+  model-health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install dependencies 
+        working-directory: ./
+        run: |
+          pip install --upgrade pip
+          pip install pytest
+          pip install huggingface_hub
+          pip install pathlib
+      - name: Run model health check
+        working-directory: ./
+        run: |
+          python -m pytest -v --color=yes test.py
