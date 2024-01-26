@@ -28,7 +28,7 @@ def check_model_availability(repo, filename):
         return False
 
 
-model_data = os.path.join(os.getcwd(), fichier_vocabulaire)
+model_data = os.path.join(os.getcwd(), paths[0])
 checks = list(flatten_model_data(model_data))
 
 
