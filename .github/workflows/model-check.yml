@@ -26,6 +26,7 @@ jobs:
         run: |
           pip install pytest
           pip install huggingface_hub
+          pip install requests
       - name: Run model health check
         working-directory: ./
         run: |
