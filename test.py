@@ -5,8 +5,8 @@ from huggingface_hub import hf_hub_url
 import pytest
 
 
-def load_model_data(file_path):
-    with open(file_path, "r") as models_file:
+def load_model_data(model_path):
+    with open(model_path, "r") as models_file:
         return json.load(models_file)
 
 
@@ -20,94 +20,31 @@ def flatten_model_data(families):
 def check_model_availability(repo, filename):
     url = hf_hub_url(repo, filename, repo_type="model", revision="main")
     response = requests.head(url)
-    if response.ok:
-        return True
-    else:
-        return False
+    return response.ok
 
 
 test_dir = Path(__file__).parent
-model_data1 = load_model_data(test_dir.parent / "serge-models/all/models.json")
-checks1 = list(flatten_model_data(model_data1))
-model_data2 = load_model_data(test_dir.parent / "serge-models/coder/models.json")
-checks2 = list(flatten_model_data(model_data2))
-model_data3 = load_model_data(test_dir.parent / "serge-models/finance/models.json")
-checks3 = list(flatten_model_data(model_data3))
-model_data4 = load_model_data(test_dir.parent / "serge-models/french/models.json")
-checks4 = list(flatten_model_data(model_data4))
-model_data5 = load_model_data(test_dir.parent / "serge-models/generic/models.json")
-checks5 = list(flatten_model_data(model_data5))
-model_data6 = load_model_data(test_dir.parent / "serge-models/german/models.json")
-checks6 = list(flatten_model_data(model_data6))
-model_data7 = load_model_data(test_dir.parent / "serge-models/italian/models.json")
-checks7 = list(flatten_model_data(model_data7))
-model_data8 = load_model_data(test_dir.parent / "serge-models/large/models.json")
-checks8 = list(flatten_model_data(model_data8))
-model_data9 = load_model_data(test_dir.parent / "serge-models/math/models.json")
-checks9 = list(flatten_model_data(model_data9))
-model_data10 = load_model_data(test_dir.parent / "serge-models/medical/models.json")
-checks10 = list(flatten_model_data(model_data10))
-model_data11 = load_model_data(test_dir.parent / "serge-models/medium/models.json")
-checks11 = list(flatten_model_data(model_data11))
-model_data12 = load_model_data(test_dir.parent / "serge-models/small/models.json")
-checks12 = list(flatten_model_data(model_data12))
-model_data13 = load_model_data(test_dir.parent / "serge-models/spanish/models.json")
-checks13 = list(flatten_model_data(model_data13))
-model_data14 = load_model_data(test_dir.parent / "serge-models/tiny/models.json")
-checks14 = list(flatten_model_data(model_data14))
+model_paths = [
+    "serge-models/all/models.json",
+    "serge-models/coder/models.json",
+    "serge-models/finance/models.json",
+    "serge-models/french/models.json",
+    "serge-models/generic/models.json",
+    "serge-models/german/models.json",
+    "serge-models/italian/models.json",
+    "serge-models/large/models.json",
+    "serge-models/math/models.json",
+    "serge-models/medical/models.json",
+    "serge-models/medium/models.json",
+    "serge-models/small/models.json",
+    "serge-models/spanish/models.json",
+    "serge-models/tiny/models.json"
+]
 
-@pytest.mark.parametrize("repo,filename", checks1)
-def test_model_available1(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+@pytest.mark.parametrize("model_path", model_paths)
+def test_model_available(model_path):
+    model_data = load_model_data(test_dir.parent / model_path)
+    checks = list(flatten_model_data(model_data))
 
-@pytest.mark.parametrize("repo,filename", checks2)
-def test_model_available2(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks3)
-def test_model_available3(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks4)
-def test_model_available4(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks5)
-def test_model_available5(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks6)
-def test_model_available6(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks7)
-def test_model_available7(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks8)
-def test_model_available8(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks9)
-def test_model_available9(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks10)
-def test_model_available10(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks11)
-def test_model_available11(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks12)
-def test_model_available12(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks13)
-def test_model_available13(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
-
-@pytest.mark.parametrize("repo,filename", checks14)
-def test_model_available14(repo, filename):
-    assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+    for repo, filename in checks:
+        assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
