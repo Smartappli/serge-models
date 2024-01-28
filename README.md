@@ -1,3 +1,5 @@
+[![LLM Healthcheck](https://github.com/Smartappli/serge-models/actions/workflows/model-check.yml/badge.svg)](https://github.com/Smartappli/serge-models/actions/workflows/model-check.yml)
+
 # Models for 🦙 Serge 🦙
 
 [Serge](https://github.com/serge-chat/serge) is a chat interface crafted with [llama.cpp](https://github.com/ggerganov/llama.cpp) for running GGUF models. No API keys, entirely self-hosted!
