@@ -61,6 +61,17 @@
                         "disk_space": 20219900064.0
                     }
                 ]
+            }, 
+            {
+                "name": "CodeLLaMA-70B-Python",
+                "repo": "TheBloke/CodeLlama-70B-Python-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-70b-python.Q4_K_M.gguf",
+                        "disk_space": 41423092192.0
+                    }
+                ]
             }             
         ]
     },   
