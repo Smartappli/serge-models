@@ -1,4 +1,30 @@
 [
+        "name": "CodeLLaMA",
+        "models": [
+            {    
+                "name": "CodeLLaMA-70B",
+                "repo": "TheBloke/CodeLlama-70B-hf-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-70b-hf.Q4_K_M.gguf",
+                        "disk_space": 41423092224.0
+                    }
+                ]
+            },
+           {
+                "name": "CodeLLaMA-70B-Instruct",
+                "repo": "TheBloke/CodeLlama-70B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "codellama-70b-instruct.Q4_K_M.gguf",
+                        "disk_space": 41423092768.0
+                    }
+                ]
+            }
+        ]
+    },
     {
         "name": "LLaMA_2",
         "models": [
