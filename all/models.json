@@ -187,7 +187,7 @@
                     }
                 ]
             },
-           {
+            {
                 "name": "CodeLLaMA-70B-Instruct",
                 "repo": "TheBloke/CodeLlama-70B-Instruct-GGUF",
                 "files": [
