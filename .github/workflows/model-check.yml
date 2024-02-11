@@ -15,7 +15,7 @@ on:
   release:
     types: [published, edited]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 12 */7 * *'
 
 jobs:
   model-health-check:
