@@ -17,7 +17,7 @@ Then replace the models.json file located in /usr/src/app/api/src/serge/data/ of
 
 | Directory    | Description    | Models    |
 |:------------:|:--------------------------------:|:---------:|
-| **All** | All models | AlBfred 40B-1023; Asclepius 13B; Code 13B, 33B; CodeLLaMA 7B, 7B-Instruct, 7B-Python, 13B, 13B-Instruct, 13B-Python, 34B, 34B-Instruct, 34B-Python? 70B, 70B-Instruct, 70B-Python; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; LLaMA 2 7B, 7B-Chat, 7B-Coder, 13B, 13B-Chat, 70B, 70B-Chat, 70B-OASST; LLamA Pro 8B, 8B-Instruct; Med42  70B; Medalpaca 13B; Medicine: Chat, LLM, LLM 13B; Meditron 7B, 7B-Chat, 70B; Mistral 7B-v0.1, 7B-Instruct-v0.2, 7B-OpenOrca; MistralLite 7B; Mixtral 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1, SlimOrca 8x7B; Neural-Chat 7B-v3.3; Notus 7B-v1; Notux 8x7b-v1; OpenChat 7B-v3.5-0106; OpenLLaMA 3B-v2, 7B-v2, 13B-v2; Orca 2 7B, 13B; Phi 2 2.7B; Python Code 13B, 33B; PsyMedRP 13B-v1, 20B-v1; SlimOrca 13B; Sqlcoder 2 15B; Starling LM 7B-Alpha; Tinyllama 1.1B Chat v1.0, 1.1B Chat Medical; Vicuna 7B-v1.5, 13B-v1.5, 33B-v1.3, 33B-Coder; Vigogne 2 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat; Wizard Coder-33B-v1.1; LM-7B-v1.0, LM-13B-v1.2, LM-70B-v1.0, Math-7B-v1.0, 13B-v1.0, 70B-v1.0; Zephyr 3B, 7B-Alpha, 7B-Beta |
+| **All** | All models | AlBfred 40B-1023; Asclepius 13B; Code 13B, 33B; CodeLLaMA 7B, 7B-Instruct, 7B-Python, 13B, 13B-Instruct, 13B-Python, 34B, 34B-Instruct, 34B-Python? 70B, 70B-Instruct, 70B-Python; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Finance Chat, LLM, LLM-13B; LLaMA 2 7B, 7B-Chat, 7B-Coder, 13B, 13B-Chat, 70B, 70B-Chat, 70B-OASST; LLamA Pro 8B, 8B-Instruct; Med42 70B; Medalpaca 13B; Medicine: Chat, LLM, LLM 13B; Meditron 7B, 7B-Chat, 70B; Mistral 7B-v0.1, 7B-Instruct-v0.2, 7B-OpenOrca; MistralLite 7B; Mixtral 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1, SlimOrca 8x7B; Neural-Chat 7B-v3.3; Notus 7B-v1; Notux 8x7b-v1; OpenChat 7B-v3.5-0106; OpenLLaMA 3B-v2, 7B-v2, 13B-v2; Orca 2 7B, 13B; Phi 2 2.7B; Python Code 13B, 33B; PsyMedRP 13B-v1, 20B-v1; SlimOrca 13B; Sqlcoder 2 15B; Starling LM 7B-Alpha; Tinyllama 1.1B Chat v1.0, 1.1B Chat Medical; Vicuna 7B-v1.5, 13B-v1.5, 33B-v1.3, 33B-Coder; Vigogne 2 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat; Wizard Coder-33B-v1.1; LM-7B-v1.0, LM-13B-v1.2, LM-70B-v1.0, Math-7B-v1.0, 13B-v1.0, 70B-v1.0; Zephyr 3B, 7B-Alpha, 7B-Beta |
 
 | Directory    | Description    | Models    |
 |:------------:|:--------------------------------:|:---------:|
@@ -33,7 +33,7 @@ Then replace the models.json file located in /usr/src/app/api/src/serge/data/ of
 | Directory    | Description    | Models    |
 |:------------:|:--------------------------------:|:---------:|
 | **Coder** | Models trained for coding | Code 13B, 33B; CodeLLaMA 7B-Python, 13B-Python, 34B-Python, 70B-Python; LLaMA 2 7B-Coder; Sqlcoder 2 15B; Vicuna 33B-Coder; Wizard Coder-33B-v1.1 |
-| **Finance** | Models trained for finance domain | Finance LLM, Chat |
+| **Finance** | Models trained for finance domain | Finance Chat, LLM, LLM-13B |
 | **Math** | Models trained for math domain | Wizard Math-7B-v1.0, 13B-v1.0, 70B-v1.0 |
 | **Medical** | Models trained for medical domain | Asclepius 13B; Med42 70B; Medalpaca 13B; Medicine Chat, LLM, LLM 13B; Meditron 7B, 7B-Chat, 70B; PsyMedRP 13B-v1, 20B-v1; TinyLlama 1.1B Chat Medical |
 
