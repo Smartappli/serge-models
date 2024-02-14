@@ -60,6 +60,17 @@
                         "disk_space": 4081010048.0
                     }
                 ]
+            },
+            {
+                "name": "Medicine-LLM",
+                "repo": "TheBloke/medicine-LLM-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "medicine-llm.Q4_K_M.gguf",
+                        "disk_space": 4081009920.0
+                    }
+                ]
             },            
             {
                 "name": "Medicine-LLM-13B",
