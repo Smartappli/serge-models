@@ -1005,7 +1005,7 @@
         "name": "Wizard",
         "models": [
             {
-                "name": "WizarCoder-33B-v1.1",
+                "name": "WizarCoder-33B-v1_1",
                 "repo": "TheBloke/WizardCoder-33B-V1.1-GGUF",
                 "files": [
                     {
@@ -1049,7 +1049,7 @@
                 ]
             },
             {
-                "name": "WizardMath-7B-v1.1",
+                "name": "WizardMath-7B-v1_1",
                 "repo": "TheBloke/WizardMath-7B-V1.1-GGUF",
                 "files": [
                     {
@@ -1060,7 +1060,7 @@
                 ]
             }, 
             {
-                "name": "WizardMath-13B-v1.0",
+                "name": "WizardMath-13B-v1_0",
                 "repo": "TheBloke/WizardMath-13B-V1.0-GGUF",
                 "files": [
                     {
@@ -1071,7 +1071,7 @@
                 ]
             },
             {
-                "name": "WizardMath-70B-v1.0",
+                "name": "WizardMath-70B-v1_0",
                 "repo": "TheBloke/WizardMath-70B-V1.0-GGUF",
                 "files": [
                     {
