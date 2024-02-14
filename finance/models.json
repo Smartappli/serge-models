@@ -3,6 +3,17 @@
         "name": "Finance",
         "models": [
             {
+                "name": "Finance-Chat",
+                "repo": "TheBloke/finance-chat-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "finance-chat.Q4_K_M.gguf",
+                        "disk_space": 4081010048.0
+                    }
+                ]
+            },            
+            {
                 "name": "Finance-LLM",
                 "repo": "TheBloke/finance-LLM-GGUF",
                 "files": [
@@ -14,16 +25,16 @@
                 ]
             },
             {
-                "name": "Finance-Chat",
-                "repo": "TheBloke/finance-chat-GGUF",
+                "name": "Finance-LLM-13B",
+                "repo": "TheBloke/finance-LLM-13B-GGUF",
                 "files": [
                     {
                         "name": "q4_K_M",
-                        "filename": "finance-chat.Q4_K_M.gguf",
-                        "disk_space": 4081010048.0
+                        "filename": "finance-llm-13b.Q4_K_M.gguf",
+                        "disk_space": 7865963456.0
                     }
                 ]
-            }          
+            }         
         ]
     }
 ]
