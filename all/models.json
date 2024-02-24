@@ -30,7 +30,23 @@
                 ]
             }           
         ]
-    },  
+    },
+    {   
+        "name": "BioMistral",
+        "models": [
+            {
+                "name": "BioMistral-7B",
+                "repo": "BioMistral/BioMistral-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename":  "ggml-model-Q4_K_M.gguf",
+                        "disk_space": 4368439424.0
+                    }
+                ]
+            }           
+        ]
+    },    
     {   
         "name": "Asclepius",
         "models": [
