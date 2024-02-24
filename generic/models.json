@@ -524,6 +524,33 @@
                 ]
             }           
         ]
+    },
+    {   
+        "name": "PsyMedRP",
+        "models": [
+            {
+                "name": "PsyMedRP-v1-13B",
+                "repo": "TheBloke/PsyMedRP-v1-13B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "psymedrp-v1-13b.Q4_K_M.gguf",
+                        "disk_space": 7865956288.0
+                    }
+                ]
+            },
+            {
+                "name": "PsyMedRP-v1-20B",
+                "repo": "TheBloke/PsyMedRP-v1-20B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "psymedrp-v1-20b.Q4_K_M.gguf",
+                        "disk_space": 12042208736.0
+                    }
+                ]
+            }            
+        ]
     },    
     {   
         "name": "SlimOrca",
