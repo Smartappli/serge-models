@@ -235,7 +235,18 @@
                         "disk_space": 4975385792.0
                     }
                 ]
-            },                       
+            },
+            {
+                "name": "Falcon2-11B",
+                "repo": "DevQuasar/falcon2-11B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "falcon2-11B.Q4_K_M.gguf",
+                        "disk_space": 4975385792.0
+                    }
+                ]
+            },  
             {                
                 "name": "Falcon-40B",
                 "repo": "maddes8cht/tiiuae-falcon-40b-gguf",
