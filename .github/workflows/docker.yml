@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  docker-cpu:
+  docker-serge-all-models:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
