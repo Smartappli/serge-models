@@ -1065,7 +1065,18 @@
                         "disk_space": 1789239136.0
                     }
                 ]
-            }           
+            },
+            {
+                "name": "Phi-3-mini-4k-instruct",
+                "repo": "microsoft/Phi-3-mini-4k-instruct-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Phi-3-mini-4k-instruct-q4.gguf",
+                        "disk_space": 1789239136.0
+                    }
+                ]
+            }            
         ]
     },    
     {   
