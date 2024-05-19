@@ -17,6 +17,10 @@ on:
   schedule:
     - cron: '0 12 */7 * *'
 
+concurrency:
+  group: LLM-Checker-${{ github.event_name == 'pull_request' && format('{0}-{1}', github.workflow, github.event.pull_request.number) || github.workflow_ref }}
+  cancel-in-progress: true
+
 jobs:
   model-health-check:
     runs-on: ubuntu-latest
@@ -29,9 +33,7 @@ jobs:
         working-directory: ./
         run: |
           pip install --upgrade pip
-          pip install pytest
-          pip install huggingface_hub
-          pip install pathlib
+          pip install -r requirements.txt
       - name: Run model health check
         working-directory: ./
         run: |

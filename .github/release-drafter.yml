@@ -1,0 +1,72 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: '$RESOLVED_VERSION'
+categories:
+  - title: '❗ Breaking Changes:'
+    labels:
+      - '❗ Breaking Change'
+  - title: '🚀 New Features:'
+    labels:
+      - '✏️ Feature'
+  - title: '🐛 Fixes:'
+    labels:
+      - '☢️ Bug'
+  - title: '📚 Documentation:'
+    labels:
+      - '📒 Documentation'
+  - title: '🧹 Updates:'
+    labels:
+      - '🧹 Updates'
+  - title: '🤖 Dependencies:'
+    labels:
+      - '🤖 Dependencies'
+change-template: '- $TITLE (#$NUMBER)'
+change-title-escapes: '\<*_&'
+exclude-contributors:
+  - dependabot
+  - dependabot[bot]
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+      - '❗ Breaking Change'
+      - '✏️ Feature'
+  patch:
+    labels:
+      - 'patch'
+      - '📒 Documentation'
+      - '☢️ Bug'
+      - '🤖 Dependencies'
+      - '🧹 Updates'
+  default: patch
+template: |
+    $CHANGES
+
+    ## 🐳 Docker Images
+    - `ghcr.io/$OWNER/$REPOSITORY:latest`
+    - `ghcr.io/$OWNER/$REPOSITORY:$RESOLVED_VERSION`
+
+    **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...$RESOLVED_VERSION
+
+    Thanks to $CONTRIBUTORS for making this release possible.
+
+autolabeler:
+- label: '📒 Documentation'
+  files:
+    - '*.md'
+  title:
+    - '/(docs|doc:|\[doc\]|typos|comment|documentation)/i'
+- label: '☢️ Bug'
+  title:
+    - '/(fix|bug|missing|correct)/i'
+- label: '🧹 Updates'
+  title: 
+    - '/(improve|update|refactor|deprecated|remove|unused|test)/i'
+- label: '🤖 Dependencies'
+  title:
+    - '/(bump|dependencies)/i'
+- label: '✏️ Feature'
+  title:
+    - '/(feature|feat|create|implement)/i'

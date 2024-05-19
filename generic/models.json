@@ -190,6 +190,55 @@
             }             
         ]
     },
+    {   
+        "name": "Gorilla",
+        "models": [
+            {
+                "name": "Gorilla-7B Falcon",
+                "repo": "gorilla-llm/gorilla-falcon-7b-hf-v0-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "gorilla-falcon-7b-hf-v0-q4_K_M.gguf",
+                        "disk_space": 4975125696.0
+                    }
+                ]
+            },
+            {
+                "name": "Gorilla-7B",
+                "repo": "gorilla-llm/gorilla-7b-hf-v1-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "gorilla-7b-hf-v1-q4_K_M.gguf",
+                        "disk_space": 4081004288.0
+                    }
+                ]
+            },
+            {
+                "name": "Gorilla OpenFunctions V1",
+                "repo": "gorilla-llm/gorilla-openfunctions-v1-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "gorilla-openfunctions-v1-q4_K_M.gguf",
+                        "disk_space": 4081004288.0
+                    }
+                ]
+            },
+            {
+                "name": "Gorilla OpenFunctions V2",
+                "repo": "gorilla-llm/gorilla-openfunctions-v2-gguf",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "gorilla-openfunctions-v2-q4_K_M.gguf",
+                        "disk_space": 4223770912.0
+                    }
+                ]
+            }
+        ]
+    }, 
     {
         "name": "LLaMA_2",
         "models": [
@@ -271,7 +320,45 @@
                 ]
             }
         ]
-    },    
+    },
+    {   
+        "name": "LLaMA_3",
+        "models": [
+            {
+                "name": "Llama-3-11B-Instruct-v0.1",
+                "repo": "MaziyarPanahi/Llama-3-11B-Instruct-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Llama-3-11B-Instruct-v0.1.Q4_K_M.gguf",
+                        "disk_space": 8200021632.0
+                    }
+                ]
+            },            
+            {
+                "name": "Llama-3-13B-Instruct-v0.1",
+                "repo": "MaziyarPanahi/Llama-3-13B-Instruct-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Llama-3-13B-Instruct-v0.1.Q4_K_M.gguf",
+                        "disk_space": 8061089600.0
+                    }
+                ]
+            },
+            {
+                "name": "Llama-3-16B-Instruct-v0.1",
+                "repo": "MaziyarPanahi/Llama-3-16B-Instruct-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Llama-3-16B-Instruct-v0.1.Q4_K_M.gguf",
+                        "disk_space": 10154318048.0
+                    }
+                ]
+            }            
+        ]
+    },
     {   
         "name": "LLaMA-Pro",
         "models": [
@@ -298,7 +385,56 @@
                 ]
             }
         ]
-    }, 
+    },
+    {   
+        "name": "Meta-Llama-3",
+        "models": [
+            {
+                "name": "Meta-Llama-3-8B",
+                "repo": "QuantFactory/Meta-Llama-3-8B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Meta-Llama-3-8B.Q4_K_M.gguf",
+                        "disk_space": 4921246944.0
+                    }
+                ]
+            },
+            {
+                "name": "Meta-Llama-3-8B-Instruct",
+                "repo": "QuantFactory/Meta-Llama-3-8B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf",
+                        "disk_space": 4921246944.0
+                    }
+                ]
+            },
+            {
+                "name": "Meta-Llama-3-70B",
+                "repo": "NousResearch/Meta-Llama-3-70B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Meta-Llama-3-70B-Q4_K_M.gguf",
+                        "disk_space": 42520906176.0
+                    }
+                ]
+            },
+            {
+                "name": "Meta-Llama-3-70B-Instruct",
+                "repo": "QuantFactory/Meta-Llama-3-70B-Instruct-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Meta-Llama-3-70B-Instruct.Q4_K_M.gguf",
+                        "disk_space": 42520906208.0
+                    }
+                ]
+            }
+        ]
+    },
     {
         "name": "Mistral",
         "models": [
@@ -711,7 +847,18 @@
                         "disk_space": 4081009920.0
                     }
                 ]
-            },          
+            },
+            {
+                "name": "WizardLM-2-7B",
+                "repo": "MaziyarPanahi/WizardLM-2-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "WizardLM-2-7B.Q4_K_M.gguf",
+                        "disk_space": 4368439008.0
+                    }
+                ]
+            },
             {
                 "name": "WizardLM-13B-v1_2",
                 "repo": "TheBloke/WizardLM-13B-V1.2-GGUF",
