@@ -514,7 +514,18 @@
                         "disk_space": 4081009920.0
                     }
                 ]
-            }                  
+            },
+            {
+                "name": "WizardLM-2-7B",
+                "repo": "MaziyarPanahi/WizardLM-2-7B-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "WizardLM-2-7B.Q4_K_M.gguf",
+                        "disk_space": 4368439008.0
+                    }
+                ]
+            }
         ]
     },    
     {
