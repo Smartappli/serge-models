@@ -1,0 +1,3 @@
+[submodule "vendor/serge"]
+	path = vendor/serge
+	url = https://github.com/serge-chat/serge.git
