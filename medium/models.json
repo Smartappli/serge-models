@@ -68,5 +68,21 @@
                 ]
             }
         ]
-    }     
+    },
+    {   
+        "name": "LLaMA_3",
+        "models": [
+            {
+                "name": "Llama-3-16B-Instruct-v0.1",
+                "repo": "MaziyarPanahi/Llama-3-16B-Instruct-v0.1-GGUF",
+                "files": [
+                    {
+                        "name": "q4_K_M",
+                        "filename": "Llama-3-16B-Instruct-v0.1.Q4_K_M.gguf",
+                        "disk_space": 10154318048.0
+                    }
+                ]
+            }            
+        ]
+    } 
 ]
