@@ -38,8 +38,9 @@ model_paths = [
     "serge-models/medium/models.json",
     "serge-models/small/models.json",
     "serge-models/spanish/models.json",
-    "serge-models/tiny/models.json"
+    "serge-models/tiny/models.json",
 ]
+
 
 @pytest.mark.parametrize("model_path", model_paths)
 def test_model_available(model_path):
@@ -47,4 +48,6 @@ def test_model_available(model_path):
     checks = list(flatten_model_data(model_data))
 
     for repo, filename in checks:
-        assert check_model_availability(repo, filename), f"Model {repo}/{filename} not available"
+        assert check_model_availability(
+            repo, filename
+        ), f"Model {repo}/{filename} not available"
