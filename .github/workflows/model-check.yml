@@ -17,6 +17,10 @@ on:
   schedule:
     - cron: '0 12 */7 * *'
 
+concurrency:
+  group: LLM-Checker-${{ github.event_name == 'pull_request' && format('{0}-{1}', github.workflow, github.event.pull_request.number) || github.workflow_ref }}
+  cancel-in-progress: true
+
 jobs:
   model-health-check:
     runs-on: ubuntu-latest
