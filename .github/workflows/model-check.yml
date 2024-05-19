@@ -34,9 +34,7 @@ jobs:
         working-directory: ./
         run: |
           pip install --upgrade pip
-          pip install pytest
-          pip install huggingface_hub
-          pip install pathlib
+          pip install -r requirements.txt
       - name: Run model health check
         working-directory: ./
         run: |
