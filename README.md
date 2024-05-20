@@ -21,7 +21,12 @@ Then replace the models.json file located in /usr/src/app/api/src/serge/data/ of
 
 🐳 Docker:
 ```bash
-docker push smartappli/serge-all-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-all-models:latest
 ```
 
 | Directory    | Description    | Models    |
