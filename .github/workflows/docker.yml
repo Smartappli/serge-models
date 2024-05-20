@@ -50,6 +50,9 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: liste
+        run: cat ./vendor/serge/Dockerfile
+
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
