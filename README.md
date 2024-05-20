@@ -19,7 +19,7 @@ Then replace the models.json file located in /usr/src/app/api/src/serge/data/ of
 |:------------:|:--------------------------------:|:---------:|
 | **All** | All models | Alfred 40B-1023; Asclepius 13B; BioMistral 7B; Code 13B, 33B; CodeLLaMA 7B, 7B-Instruct, 7B-Python, 13B, 13B-Instruct, 13B-Python, 34B, 34B-Instruct, 34B-Python? 70B, 70B-Instruct, 70B-Python; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Gemma 2B, 2B-Instruct, 7B, 7B-Instruct; Finance Chat, LLM, LLM-13B; Gorilla 7B-Falcon, 7B, OpenFunctions V1, OpenFunctions V2; LLaMA 2 7B, 7B-Chat, 7B-Coder, 13B, 13B-Chat, 70B, 70B-Chat, 70B-OASST; LLaMA 3 11B-Instruct-v0.1, 13B-Instruct-v0.1, 16B-Instruct-v0.1; LLamA Pro 8B, 8B-Instruct; Med42 70B; Medalpaca 13B; Medicine: Chat, LLM, LLM 13B; Meditron 7B, 7B-Chat, 70B; Meta-Llama 3 8B, 8B-Instruct, 70B, 70B-Instruct; Mistral 7B-v0.1, 7B-Instruct-v0.2, 7B-OpenOrca; MistralLite 7B; Mixtral 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1, SlimOrca 8x7B; Neural-Chat 7B-v3.3; Notus 7B-v1; Notux 8x7b-v1; Nous-Hermes-2 Mistral-7B-DPO, Mixtral-8x7B-DPO, Mistral-8x7B-SFT; OpenChat 7B-v3.5-0106; Open Code Interpreter CL-7B, CL-13B, CL-70B, DS-6.7B, DS-33B; OpenLLaMA 3B-v2, 7B-v2, 13B-v2; Orca 2 7B, 13B; Phi 2 2.7B; Python Code 13B, 33B; PsyMedRP 13B-v1, 20B-v1; SlimOrca 13B; Sqlcoder 2 15B; Starling LM 7B-Alpha; Tinyllama 1.1B Chat v1.0, 1.1B Chat Medical; Vicuna 7B-v1.5, 13B-v1.5, 33B-v1.3, 33B-Coder; Vigogne 2 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat; Wizard Coder-33B-v1.1, LM-7B-v1.0, LM-2-7B, LM-13B-v1.2, LM-70B-v1.0, Math-7B-v1.1, 13B-v1.0, 70B-v1.0; Zephyr 3B, 7B-Alpha, 7B-Beta |
 
-🐳 Docker:
+🐳 Docker All Models:
 ```bash
 docker run -d \
     --name serge \
@@ -33,9 +33,14 @@ docker run -d \
 |:------------:|:--------------------------------:|:---------:|
 | **Generic** | Models trained for english language | CodeLLaMA 7B, 7B-Instruct, 7B-Python, 13B, 13B-Instruct, 13B-Python, 34B, 34B-Instruct, 34B-Python, 70B, 70B-Instruct; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Gemma 2B, 2B-Instruct, 7B, 7B-Instruct; Gorilla 7B-Falcon, 7B, OpenFunctions V1, OpenFunctions V2; LLaMA 2 7B, 7B-Chat, 7B-Coder, 13B, 13B-Chat, 70B, 70B-Chat; LLaMA 3 11B-Instruct-v0.1, 13B-Instruct-v0.1, 16B-Instruct-v0.1; LLamA Pro 8B, 8B-Instruct; Meta-Llama 3 8B, 8B-Instruct, 70B, 70B-Instruct; Mistral 7B-v0.1, 7B-Instruct-v0.2, 7B-OpenOrca; MistralLite 7B; Mixtral 8x7B-v0.1, 8x7B-Dolphin-2.7, 8x7B-Instruct-v0.1, SlimOrca 8x7B; Neural-Chat 7B-v3.3; Notus 7B-v1; Notux 8x7b-v1; Nous-Hermes-2 Mistral-7B-DPO, Mixtral-8x7B-DPO, Mistral-8x7B-SFT; OpenChat 7B-v3.5-0106; OpenLLaMA 3B-v2, 7B-v2, 13B-v2; Orca 2 7B, 13B; Phi 2 2.7B; SlimOrca 13B; Starling LM 7B-Alpha; Tinyllama 1.1B Chat v1.0; Vicuna 7B-v1.5, 13B-v1.5, 33B-v1.3, 33B-Coder; Vigogne 2 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat; WizardL LM-7B-v1.0, LM-2-7B, LM-13B-v1.2, LM-70B-v1.0; Zephyr 3B, 7B-Alpha, 7B-Beta |
 
-🐳 Docker:
+🐳 Docker Generic Models:
 ```bash
-docker push smartappli/serge-generic-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-generic-models:latest
 ```
 
 | Directory    | Description    | Models    |
@@ -45,18 +50,44 @@ docker push smartappli/serge-generic-models:latest
 | **Medium** | Models with > 13B abd <=40B params | Alfred 40B-1023; CodeLLaMA 34B, 34B-Instruct; Falcon 40B, 40B-Instruct; LLaMA 3 16B-Instruct-v0.1 |
 | **Large** | Models with >40B and <=80B params | CodeLLaMA 70B, 70B-Instruct; LLaMA 2 70B, 70B-Chat; Meta-Llama 3 70B, 70B-Instruct; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Notux 8x7b-v1, Wizard LM-70B-v1.0 |  
 
-🐳 Docker:
+🐳 Docker Tiny Models:
 ```bash
-docker push smartappli/serge-tiny-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-tiny-models:latest
 ```
+
+🐳 Docker Small Models:
 ```bash
-docker push smartappli/serge-small-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-small-models:latest
 ```
+
+🐳 Docker Medium models:
 ```bash
-docker push smartappli/serge-medium-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-medium-models:latest
 ```
+
+🐳 Docker Large Models:
 ```bash
-docker push smartappli/serge-large-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-large-models:latest
 ```
 
 | Directory    | Description    | Models    |
