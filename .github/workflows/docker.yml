@@ -647,8 +647,7 @@ jobs:
           context: ./vendor/serge
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: smartappli/
-serge-italian-models:latest
+          tags: smartappli/serge-italian-models:latest
 
   docker-serge-spanish-models:
     runs-on: ubuntu-latest
