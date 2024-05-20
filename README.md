@@ -47,5 +47,5 @@ Then replace the models.json file located in /usr/src/app/api/src/serge/data/ of
 ## 🐳 Docker Images
 | Models | Docker |
 |:------:|:------:|
-| All | docker push smartappli/serge-tiny-models:latest |
-
+| All | docker push smartappli/serge-all-models:latest |
+| Generic | docker push smartappli/serge-generic-models: latest |
