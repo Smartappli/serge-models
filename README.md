@@ -40,6 +40,20 @@ docker push smartappli/serge-generic-models:latest
 | **Medium** | Models with > 13B abd <=40B params | Alfred 40B-1023; CodeLLaMA 34B, 34B-Instruct; Falcon 40B, 40B-Instruct; LLaMA 3 16B-Instruct-v0.1 |
 | **Large** | Models with >40B and <=80B params | CodeLLaMA 70B, 70B-Instruct; LLaMA 2 70B, 70B-Chat; Meta-Llama 3 70B, 70B-Instruct; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Notux 8x7b-v1, Wizard LM-70B-v1.0 |  
 
+🐳 Docker:
+```bash
+docker push smartappli/serge-tiny-models:latest
+```
+```bash
+docker push smartappli/serge-small-models:latest
+```
+```bash
+docker push smartappli/serge-medium-models:latest
+```
+```bash
+docker push smartappli/serge-large-models:latest
+```
+
 | Directory    | Description    | Models    |
 |:------------:|:--------------------------------:|:---------:|
 | **Coder** | Models trained for coding | Code 13B, 33B; CodeLLaMA 7B-Python, 13B-Python, 34B-Python, 70B-Python; Open Code Interpreter CL-7B, CL-13B, CL-70B, DS-6.7B, DS-33B; LLaMA 2 7B-Coder; Sqlcoder 2 15B; Vicuna 33B-Coder; Wizard Coder-33B-v1.1 |
