@@ -61,9 +61,37 @@ docker push smartappli/serge-large-models:latest
 | **Math** | Models trained for math domain | Wizard Math-7B-v1.1, 13B-v1.0, 70B-v1.0 |
 | **Medical** | Models trained for medical domain | Asclepius 13B; BioMistral 7B; Med42 70B; Medalpaca 13B; Medicine Chat, LLM, LLM 13B; Meditron 7B, 7B-Chat, 70B; PsyMedRP 13B-v1, 20B-v1; TinyLlama 1.1B Chat Medical |
 
+🐳 Docker:
+```bash
+docker push smartappli/serge-coder-models:latest
+```
+```bash
+docker push smartappli/serge-finance-models:latest
+```
+```bash
+docker push smartappli/serge-math-models:latest
+```
+```bash
+docker push smartappli/serge-medical-models:latest
+```
+
 | Directory    | Description    | Models    |
 |:------------:|:--------------------------------:|:---------:|
 | **French** | Models trained for french language | Alfred 40B-1023; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Mistral 7B-v0.1, 7B-Instruct-v0.2; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Vigogne 2 7B-Chat, 7B-Instruct, 13B-Instruct, 70B-Chat |
 | **German** | Models trained for german language | Alfred 40B-1023; Em_German 7B, 13B, 70B; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Mistral 7B-V0.1, 7B-Instruct-v0.2; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1 |
 | **Italian** | Models trained for italian language | Alfred 40B-1023; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Mistral 7B-v0.1, 7B-Instruct-v0.2; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1 |
 | **Spanish** | Models trained for Spanish language |Alfred 40B-1023; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Mistral 7B-v0.1, 7B-Instruct-v0.2; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Spanish-FT |
+
+🐳 Docker:
+```bash
+docker push smartappli/serge-french-models:latest
+```
+```bash
+docker push smartappli/serge-german-models:latest
+```
+```bash
+docker push smartappli/serge-italian-models:latest
+```
+```bash
+docker push smartappli/serge-spanish-models:latest
+```
