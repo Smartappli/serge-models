@@ -97,18 +97,44 @@ docker run -d \
 | **Math** | Models trained for math domain | Wizard Math-7B-v1.1, 13B-v1.0, 70B-v1.0 |
 | **Medical** | Models trained for medical domain | Asclepius 13B; BioMistral 7B; Med42 70B; Medalpaca 13B; Medicine Chat, LLM, LLM 13B; Meditron 7B, 7B-Chat, 70B; PsyMedRP 13B-v1, 20B-v1; TinyLlama 1.1B Chat Medical |
 
-🐳 Docker:
+🐳 Docker Coder Models:
 ```bash
-docker push smartappli/serge-coder-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-coder-models:latest
 ```
+
+🐳 Docker Finance Models:
 ```bash
-docker push smartappli/serge-finance-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-finance-models:latest
 ```
+
+🐳 Docker Math Models:
 ```bash
-docker push smartappli/serge-math-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-math-models:latest
 ```
+
+🐳 Docker Medical Models:
 ```bash
-docker push smartappli/serge-medical-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-medical-models:latest
 ```
 
 | Directory    | Description    | Models    |
@@ -118,16 +144,42 @@ docker push smartappli/serge-medical-models:latest
 | **Italian** | Models trained for italian language | Alfred 40B-1023; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Mistral 7B-v0.1, 7B-Instruct-v0.2; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1 |
 | **Spanish** | Models trained for Spanish language |Alfred 40B-1023; Falcon 7B, 7B-Instruct, 40B, 40B-Instruct; Mistral 7B-v0.1, 7B-Instruct-v0.2; Mixtral 8x7B-v0.1, 8x7B-Instruct-v0.1; Spanish-FT |
 
-🐳 Docker:
+🐳 Docker French Models:
 ```bash
-docker push smartappli/serge-french-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-french-models:latest
 ```
+
+🐳 Docker German Models:
 ```bash
-docker push smartappli/serge-german-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-german-models:latest
 ```
+
+🐳 Docker Italian Models:
 ```bash
-docker push smartappli/serge-italian-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-italian-models:latest
 ```
+
+🐳 Docker Spanish Models:
 ```bash
-docker push smartappli/serge-spanish-models:latest
+docker run -d \
+    --name serge \
+    -v weights:/usr/src/app/weights \
+    -v datadb:/data/db/ \
+    -p 8008:8008 \
+    smartappli/serge-spanish-models:latest
 ```
