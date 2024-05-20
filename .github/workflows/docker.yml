@@ -15,13 +15,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: "recursive"
+        
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
 
       - name: Models loading
         run: |
           rm ./venndor/serge/api/src/serge/data/models.json
           cp ./all/models.json ./venndor/serge/api/src/serge/data/
+          
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
 
