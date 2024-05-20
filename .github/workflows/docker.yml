@@ -26,8 +26,8 @@ jobs:
 
       - name: Models loading
         run: |
-          rm ./venndor/serge/api/src/serge/data/models.json
-          cp ./all/models.json ./venndor/serge/api/src/serge/data/
+          rm ./vendor/serge/api/src/serge/data/models.json
+          cp ./all/models.json ./vendor/serge/api/src/serge/data/
           
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
