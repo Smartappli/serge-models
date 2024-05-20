@@ -18,6 +18,7 @@ jobs:
         
       - name: Checkout submodules
         run: |
+          mkdir vendor
           cd vendor
           git submodule add https://github.com/serge-chat/serge.git serge
 
