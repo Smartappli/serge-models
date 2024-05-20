@@ -17,7 +17,9 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Checkout submodules
-        run: git submodule update --init --recursive
+        run: |
+          cd vendor
+          git submodule add https://github.com/serge-chat/serge.git serge
 
       - name: Models loading
         run: |
