@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -66,7 +66,7 @@ jobs:
     needs: docker-serge-all-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -115,7 +115,7 @@ jobs:
     needs: docker-serge-generic-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -164,7 +164,7 @@ jobs:
     needs: docker-serge-tiny-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -213,7 +213,7 @@ jobs:
     needs: docker-serge-small-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -262,7 +262,7 @@ jobs:
     needs: docker-serge-medium-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -311,7 +311,7 @@ jobs:
     needs: docker-serge-large-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -360,7 +360,7 @@ jobs:
     needs: docker-serge-coder-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -409,7 +409,7 @@ jobs:
     needs: docker-serge-finance-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -458,7 +458,7 @@ jobs:
     needs: docker-serge-math-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -507,7 +507,7 @@ jobs:
     needs: docker-serge-medical-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -556,7 +556,7 @@ jobs:
     needs: docker-serge-french-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -605,7 +605,7 @@ jobs:
     needs: docker-serge-german-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
@@ -654,7 +654,7 @@ jobs:
     needs: docker-serge-italian-models
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         
       - name: Checkout submodules
         run: |
