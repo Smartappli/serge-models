@@ -30,7 +30,7 @@ jobs:
           cp ./all/models.json ./vendor/serge/api/src/serge/data/
           
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -82,7 +82,7 @@ jobs:
           cp ./generic/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -131,7 +131,7 @@ jobs:
           cp ./tiny/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -180,7 +180,7 @@ jobs:
           cp ./small/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -229,7 +229,7 @@ jobs:
           cp ./medium/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -278,7 +278,7 @@ jobs:
           cp ./large/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -327,7 +327,7 @@ jobs:
           cp ./coder/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -376,7 +376,7 @@ jobs:
           cp ./finance/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -425,7 +425,7 @@ jobs:
           cp ./math/models.json ./vendor/serge/api/src/serge/data/ 
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -474,7 +474,7 @@ jobs:
           cp ./medical/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -523,7 +523,7 @@ jobs:
           cp ./french/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -572,7 +572,7 @@ jobs:
           cp ./german/models.json ./vendor/serge/api/src/serge/data/ 
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -621,7 +621,7 @@ jobs:
           cp ./italian/models.json ./vendor/serge/api/src/serge/data/ 
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -670,7 +670,7 @@ jobs:
           cp ./spanish/models.json ./vendor/serge/api/src/serge/data/
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
